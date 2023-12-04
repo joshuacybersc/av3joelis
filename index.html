@@ -14,44 +14,11 @@
     <li><a href="historia.html">NOSSA HISTÓRIA</a></li>
     <li><a href="servicos.html">SERVIÇOS</a></li>
     <li><a href="curriculos">CURRÍCULOS</a></li>
-    <li><a href="contatos">CONTATOS</a></li>
+    <li><a href="contatos">ENTRAR</a></li>
 </ul>
 </nav>
 
-   <div class="container">
-       <div class="product">
-           <div class="image">
-               <img class="product-image" src="Images/orange.png" alt="">
-           </div>
-           <div class="color">
-               <span class="orange active" data-image="Images/orange.png" data-color="#DE522F"></span>
-               <span class="green" data-image="Images/green.png" data-color="#9ABE62"></span>
-               <span class="black" data-image="Images/black.png" data-color="#222627"></span>
-               <span class="red" data-image="Images/red.png" data-color="#B41D26"></span>
-           </div>
-           <div class="title">
-               Tenis de Alta Velocidade
-           </div>
-           <div class="detail">
-               <p>Price : <span>$500</span></p>
-               <a href="#">Add To Cart</a>
-           </div>
-       </div>
-   </div>
-
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-   <script>
-       $(".color span").click(function(){
-
-        $(".color span").removeClass("active");
-        $(this).addClass("active");
-        $(".detail span").css("color",$(this).attr("data-color"));
-        $(".detail a").css("background",$(this).attr("data-color"));
-        $(".product-image").attr("src",$(this).attr("data-image"));
-        $("body").css("background",$(this).attr("data-color"));
-       });
-   </script>
+   
 
 </body>
 </html>
